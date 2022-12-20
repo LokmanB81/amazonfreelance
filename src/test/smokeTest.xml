@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="smoke testler">
+    <test name="smoke claslar">
+       <classes>
+           <class name="tests.US01_TC01_ValidSignIn"/>
+           <class name="tests.US02_TC01_InValidEmailSignIn"/>
+           <class name="tests.US04_TC01_SearchProduct"/>
+           <class name="tests.US03_TC01_AmazonMusicMenu"/>
+           <class name="tests.US05_TC01_FilterByRate"/>
+       </classes>
+    </test>
+</suite>
